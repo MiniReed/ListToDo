@@ -5,6 +5,14 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListToDo", "ListToDo\ListToDo.csproj", "{B2CD74BB-C88C-4911-B263-F4ECFF9EB618}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{F85E1BFB-D674-49B0-8461-75C07FF2248D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CC72B43A-DB1B-4B48-B69F-09336F2BAC74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serivce", "Serivce", "{3FD209A6-0221-411F-95C2-FC19B38B0881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Domain", "ToDoList.Domain\ToDoList.Domain.csproj", "{294C418D-EC33-4F0D-9F4B-EE4193918F91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,16 @@ Global
 		{B2CD74BB-C88C-4911-B263-F4ECFF9EB618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2CD74BB-C88C-4911-B263-F4ECFF9EB618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2CD74BB-C88C-4911-B263-F4ECFF9EB618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294C418D-EC33-4F0D-9F4B-EE4193918F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294C418D-EC33-4F0D-9F4B-EE4193918F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294C418D-EC33-4F0D-9F4B-EE4193918F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294C418D-EC33-4F0D-9F4B-EE4193918F91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{294C418D-EC33-4F0D-9F4B-EE4193918F91} = {CC72B43A-DB1B-4B48-B69F-09336F2BAC74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51A652B4-D4BE-4097-9ED1-EDD4A431DE96}
