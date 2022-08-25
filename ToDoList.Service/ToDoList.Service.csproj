@@ -10,4 +10,8 @@
     <Folder Include="Implementations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoList.Domain\ToDoList.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
